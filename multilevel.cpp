@@ -1,6 +1,7 @@
 #include<iostream>
 #include<string.h>
 using namespace std;
+
 class student
 {
     int rl;
@@ -10,7 +11,7 @@ class student
     void read();
     void display();
 };
-class mark :: public student
+class mark : public student
 {
     protected :
     int s1;
@@ -32,6 +33,16 @@ class result : public marks
     void process();
     void printresult();
 };
+
+void student :: read()
+{
+    cout<<"Enter RollNo : "<<endl;
+    cin>>rl;
+    cout<<"Enter  Name : "<<endl;
+    cin>>nm;
+
+
+}
 void student :: display()
 {
     cout<<" enter roll no :"<<rl<<endl;
@@ -53,9 +64,7 @@ void result :: process()
 {
     t =s1+s2+s3;
     p= t/3.0;
-    p>=60? strcpy(div,"first") :p>=50?
-           strcpy(div,"second");
-           strcpy(div,"third");
+    p>=60? strcpy(div,"first") :p>=50? strcpy(div,"second"):strcpy(div,"third");
 }
 void result ::printresult()
 {
@@ -67,7 +76,7 @@ void result ::printresult()
 
 int main()
 {
-    class x;
+    result x;
     x.reads();
     x.getmark();
     x.process();

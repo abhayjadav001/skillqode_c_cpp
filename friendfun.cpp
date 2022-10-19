@@ -1,4 +1,4 @@
-//operator overloding using fruend function 
+//operator overloding using friend function 
 #include<iostream>
 using namespace std;
 class loc
@@ -18,8 +18,8 @@ loc(int ig, int lt)
 }
 void show()
 {
-    cout<<"\n longitude :"<<longitude<<"";
-    cout<<" latitude :"<<latitude<<"\n";
+    cout<<"\n longitude :"<<longitude;
+    cout<<" latitude :"<<latitude<<endl;
 }
  friend loc operator *(loc,loc);
 };
