@@ -100,7 +100,7 @@ void Result::process()
         strcpy(grade,"C");
     }
     cout<<"Grade :"<<grade;
-    //p>=60? strcpy(div,"First"): p>=50? strcpy(div,"Second"): strcpy(div,"Third");
+    
 }
 void Result:: printresult()
 {
@@ -110,24 +110,6 @@ void Result:: printresult()
     cout<<"Grade : "<<grade<<endl;
     cout<<"Division : "<<div<<endl;
 }
-/*void Grade ::showGrade()
-{
-    t=s1+s2+s3;
-    p=t/3.0;
-    if(p>=70)
-    {
-        strcpy(grade,"A");
-    }
-    else if(p>=50)
-    {
-        strcpy(grade,"B");
-    }
-    else
-    {
-        strcpy(grade,"C");
-    }
-    
-}*/
 
 int main()
 {
