@@ -120,7 +120,4 @@ int main()
     x.putmarks();
     x.process();
     x.printresult();
-
-
-
 }
