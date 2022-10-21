@@ -110,7 +110,6 @@ void Result:: printresult()
     cout<<"Grade : "<<grade<<endl;
     cout<<"Division : "<<div<<endl;
 }
-
 int main()
 {
     Result x;
