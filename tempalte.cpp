@@ -12,6 +12,10 @@ void display(T1 t1,T2 t2)
 {
     cout<<"displaying template :"<<t1<<"\t"<<t2<<endl;
 }
+// void display(int t1)
+// {
+//     cout<<"explicitly display :"<<t1<<endl;
+// }
 
 int main()
 {
